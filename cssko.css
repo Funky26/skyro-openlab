@@ -1,46 +1,172 @@
-body{
-    background-color: rgb(255, 255, 255);
-    margin: 0;
-    padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-head{
-    text-align: center;
-}
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 500px;
-    margin-right: 500px;
-    list-style: none;
-}
-li{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .bigger{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .modraSekcia{
+    display: flex;
+    justify-content: space-around;
     color: rgb(255, 255, 255);
-    background-color: rgb(48, 93, 228);
+    background-color: rgb(53, 151, 255);
     text-align: center;
-    padding: 100px;
-    padding: 100px;
     text-align: left;
+}
+.IT{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .headerLoL{
     text-align: center;
 }
 .preco{
+    font-size: 1.25rem;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-left: 200px;
     padding-right: 200px;
+}
+.chlopci{
+    max-width: 600px;
+    max-height: 600px;
+    display: flex;
+}
+.box{
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+}
+.boxInBox{
+    max-width: max-content;
+    margin: 50px;
+}
+.svg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sekcia{
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vizia{
+    max-width: 500px;
+}
+
+.boxes{
+    font-size: 4rem;
+    text-align: right;
+    display: flex;justify-content: space-around;
+}
+.boxers{
+    font-size: 2.5rem;
+}
+
+.color1{
+    background-color: rgba(142, 210, 252, 0.4);;
+    color: rgba(91, 148, 215, 1);
+    border-radius: 5px;
+
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    min-width: 200px;
+
+    margin-right: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.color2{
+    background-color: rgba(156, 238, 204,0.4);
+    color: rgba(92, 193, 154,1);
+    border-radius: 5px;
+
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    min-width: 200px;
+
+    margin-right: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.color3{
+    background-color: rgba(238,226,156,0.4);
+    color: rgba(219, 202, 104, 1);
+    border-radius: 5px;
+
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    min-width: 200px;
+
+    margin-right: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.color4{
+    background-color: rgba(238,156,156,0.4);
+    color: rgba(185,94,115,1);
+    border-radius: 5px;
+
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    min-width: 200px;
+
+    margin-right: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.size{
+    font-size: 6rem;
+}
+
+
+
+.laby{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.labs{
+    min-height: 150px;
+    border-radius: 8px;
+    padding: 10px;
+    transition-duration: 0.1s;
+}
+.labs:hover{
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3),5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.arrow{
+    margin: 10px;
+}
+
+
+
+
+
+
+.skoly{
+    text-align: center;
+}
+.kde{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 1.6rem;
+}
+.imgSkola{
+    max-width: 500px;
+    max-height: 500px;
 }
