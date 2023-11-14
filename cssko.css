@@ -1,5 +1,41 @@
+.hlavicka{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blueButton{
+    color: white;
+    background-color: rgb(53, 151, 255);
+    padding: 10px;
+    border-color: rgb(53, 151, 255);
+    border-radius: 8px;
+    box-shadow: none;
+    font-size: 1.1rem;
+}
+.headerLoL{
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: left;
+}
+.liButton{
+    font-size: 1.1rem;
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    text-shadow: none;
+}
+.liButton:hover{
+    color: rgb(53, 151, 255) ;
+}
+
+
+
+
+
 .bigger{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -16,9 +52,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.headerLoL{
-    text-align: center;
-}
+
 .preco{
     font-size: 1.25rem;
     text-align: center;
